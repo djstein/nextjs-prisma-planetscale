@@ -11,6 +11,8 @@ const Home: NextPage = () => {
       <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
         Toggle Theme: {theme}
       </button>
+      <br />
+      <button onClick={() => setTheme("system")}>Use System Theme</button>
     </div>
   );
 };
